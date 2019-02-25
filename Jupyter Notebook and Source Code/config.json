@@ -1,0 +1,31 @@
+{
+  "BASIC": {
+    "result_path": "/Users/josh/PycharmProjects/flippin/results",
+    "word_filter": ["warranty", "new", "like", "condition", "extra", "used", "very", "accessories",
+                  "only", "in", "days", "with", "and", "excellent", "brand", "good", "factory",
+                  "useable", "clean", "perfect", "&", "+", "/", "usable", "mint", "buy",
+                  "from", "asap", "new", "selling", "Selling", "awesome", "deal", "business", "immaculate",
+                  "excellent", "lots", "for", "sale", "sealed", "box", "starting", "excelent", "(new)", "rarely",
+                  "almost", "-", "_", "[new]", "we", "deliver", "need", "gone"],
+    "char_filter": "()!/[].^~"
+  },
+  "CRAWLER": {
+    "USER_AGENT": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)",
+    "FEED_FORMAT": "csv",
+    "LOG_ENABLED": true,
+    "DOWNLOAD_DELAY": "1",
+    "RANDOMIZE_DOWNLOAD_DELAY": "1"
+  },
+  "SCAN": {
+    "Kijiji":["/Users/josh/Desktop/Machine Learning Research Project/results/Kijiji.csv", "Kijiji.Main()"],
+    "Craigslist":["/Users/josh/Desktop/Machine Learning Research Project/results/Craigslist.csv", "Craigslist.Main()"]
+  },
+  "LOCAL": {
+    "host":"localhost",
+    "user":"root",
+    "password":"aquaQUEEF8008",
+    "database":"flippin",
+    "scan_table":"to_scan",
+    "save_table":"scan_results"
+  }
+}
